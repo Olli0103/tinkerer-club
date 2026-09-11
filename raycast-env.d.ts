@@ -13,6 +13,7 @@ type ExtensionPreferences = {
   /** API Key - A member API key created in Tinkerer Club Settings. It is sent in the x-api-key header. */
   "authorizationValue": string
 }
+
 /** Preferences accessible in all the extension's commands */
 declare type Preferences = ExtensionPreferences
 
@@ -49,3 +50,4 @@ declare namespace Arguments {
   /** Arguments passed to the `menu-bar` command */
   export type MenuBar = {}
 }
+
