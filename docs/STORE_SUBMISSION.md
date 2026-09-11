@@ -23,7 +23,7 @@ Reviewed against the current Raycast preparation, publishing, extension-guidelin
 
 - [ ] `needs_evidence`: Confirm that the platform owner permits a public third-party extension to use the Tinkerer Club name, icon, and authenticated API. Keep the “unofficial” disclaimer unless endorsement is documented.
 - [ ] `needs_evidence`: Confirm the platform's API terms permit public distribution and these read/write workflows.
-- [ ] Capture at least three Store screenshots with Raycast's Window Capture in development mode: Feed, Articles, and Prompts or Search.
+- [ ] Capture at least three Store screenshots with Raycast's **Capture Window** command in development mode: Feed, Articles, and Prompts or Search. Raycast's current macOS UI uses “Capture Window”; the developer guide still calls it “Window Capture.”
 - [ ] Screenshots must be 2000 x 1250 PNGs, share a consistent background, and contain no API keys, private member content, unrelated applications, or personal information.
 - [ ] Replace `{PR_MERGE_DATE}` in `CHANGELOG.md` only if the Raycast publishing workflow does not fill it.
 - [ ] Run `npm ci && npm run check` from a clean checkout.

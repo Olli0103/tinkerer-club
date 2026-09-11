@@ -38,4 +38,6 @@ Review performed on 2026-09-11 against the supplied Tinkerer API catalog, live r
 - `needs_evidence`: Tinkerer Club API terms permitting public distribution of these workflows.
 - Store screenshots are still required and must not expose private club content or unrelated applications.
 
+Raycast 2.3 exposes the screenshot workflow as **Capture Window**, although the current developer guide still calls it **Window Capture**. The command is installed and was opened during the review; saving authenticated member content for a public Store listing remains an explicit approval gate.
+
 No unresolved implementation defect was found in the reviewed scope. The open items are publication evidence and Store media, not code failures.
