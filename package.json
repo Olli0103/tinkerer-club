@@ -3,7 +3,7 @@
   "name": "tinkerer-club",
   "title": "Tinkerer Club",
   "description": "Browse and participate in Tinkerer Club from Raycast, with confirmable AI tools.",
-  "icon": "icon.png",
+  "icon": "tinkerer-club-icon.png",
   "author": "Olli0103",
   "platforms": [
     "macOS"

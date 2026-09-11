@@ -80,7 +80,7 @@ export default function MenuBarCommand() {
 
   return (
     <MenuBarExtra
-      icon={failure && posts.length === 0 && articles.length === 0 ? Icon.Warning : "icon.png"}
+      icon={failure && posts.length === 0 && articles.length === 0 ? Icon.Warning : "tinkerer-club-icon.png"}
       isLoading={isLoading}
       tooltip={`Tinkerer Club · ${failure ?? updatedText}`}
     >

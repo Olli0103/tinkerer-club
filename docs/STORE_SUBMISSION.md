@@ -13,7 +13,7 @@ Reviewed against the current Raycast preparation, publishing, extension-guidelin
 - [x] Root views let Raycast provide the navigation title.
 - [x] Empty views appear only after loading completes.
 - [x] The extension has no analytics or tracking.
-- [x] `assets/icon.png` is a non-default 512 x 512 PNG.
+- [x] `assets/tinkerer-club-icon.png` is a non-default 512 x 512 PNG.
 - [x] README documents installation, credentials, privacy, AI behavior, and verification.
 - [x] MIT license and Store-format changelog are present.
 - [x] `npm run check` covers type checking, tests, Raycast linting, and production build.
