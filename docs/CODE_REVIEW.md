@@ -30,14 +30,15 @@ Review performed on 2026-09-11 against the supplied Tinkerer API catalog, live r
 - Direct dependencies were checked against the npm registry. Every package is at the latest compatible version.
 - TypeScript remains at 6.0.3 because the current Raycast ESLint config requires TypeScript `<6.1.0`; TypeScript 7.0.2 fails that supported toolchain.
 - `npm audit` reports zero known vulnerabilities.
-- Type checking, 19 unit tests, Raycast linting, and the production build pass.
+- Type checking, 20 unit tests, Raycast linting, and the production build pass.
 
 ## Open Release Evidence
 
 - `needs_evidence`: Tinkerer Club authorization for public use of its name, icon, and authenticated API.
 - `needs_evidence`: Tinkerer Club API terms permitting public distribution of these workflows.
-- Store screenshots are still required and must not expose private club content or unrelated applications.
+- Five 2000 x 1250 Store screenshots are present and pass Raycast metadata validation.
+- Member names, handles, and avatars are redacted in the Store screenshots.
 
 Raycast 2.3 exposes the screenshot workflow as **Capture Window**, although the current developer guide still calls it **Window Capture**. The command is installed and was opened during the review; saving authenticated member content for a public Store listing remains an explicit approval gate.
 
-No unresolved implementation defect was found in the reviewed scope. The open items are publication evidence and Store media, not code failures.
+No unresolved implementation defect was found in the reviewed scope. The open items are platform publication permissions, not code failures.
