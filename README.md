@@ -1,5 +1,8 @@
 # Tinkerer Club for Raycast
 
+<img width="1000" height="625" alt="tinkerer-club-3" src="https://github.com/user-attachments/assets/351d2a04-12e4-490e-bb9f-af72982c9df0" />
+
+
 Browse Tinkerer Club from Raycast: read the feed and articles, inspect comments, search community content, reuse shared prompts, and publish updates. A menu-bar command keeps recent activity within reach, while optional Raycast AI tools can search and summarize club content.
 
 > This is an unofficial community extension. It is not affiliated with or endorsed by Tinkerer Club.
