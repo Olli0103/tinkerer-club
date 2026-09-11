@@ -32,6 +32,7 @@ export default function QuickPostCommand() {
   const [topics, setTopics] = useState<TopicOption[]>([]);
   const [topicFailure, setTopicFailure] = useState<string>();
   const [isLoading, setIsLoading] = useState(false);
+  const [isLoadingTopics, setIsLoadingTopics] = useState(true);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -41,6 +42,8 @@ export default function QuickPostCommand() {
         setTopics(topicOptions(result));
       } catch (error) {
         if (!controller.signal.aborted) setTopicFailure(errorMessage(error));
+      } finally {
+        if (!controller.signal.aborted) setIsLoadingTopics(false);
       }
     }
     void loadTopics();
@@ -101,7 +104,7 @@ export default function QuickPostCommand() {
   return (
     <Form
       enableDrafts
-      isLoading={isLoading}
+      isLoading={isLoading || isLoadingTopics}
       searchBarAccessory={<Form.LinkAccessory target={client.baseUrl} text="Open Club" />}
       actions={
         <ActionPanel>

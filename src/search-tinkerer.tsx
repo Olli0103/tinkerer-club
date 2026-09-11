@@ -15,7 +15,7 @@ export default function SearchTinkererCommand() {
   const [results, setResults] = useState<DisplayItem[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [failure, setFailure] = useState<string>();
-  const query = useDebouncedValue(searchText.trim(), 250);
+  const query = useDebouncedValue(searchText.trim().slice(0, 100), 250);
 
   useEffect(() => {
     const controller = new AbortController();

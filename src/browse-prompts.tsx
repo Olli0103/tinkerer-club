@@ -18,7 +18,7 @@ export default function BrowsePromptsCommand() {
   const [isLoading, setIsLoading] = useState(true);
   const [failure, setFailure] = useState<string>();
   const [revision, setRevision] = useState(0);
-  const query = useDebouncedValue(searchText.trim(), 250);
+  const query = useDebouncedValue(searchText.trim().slice(0, 120), 250);
 
   useEffect(() => {
     const controller = new AbortController();

@@ -76,7 +76,7 @@ The main modules are:
 
 ## Store Submission
 
-The Store readiness checklist and remaining evidence are tracked in [`docs/STORE_SUBMISSION.md`](docs/STORE_SUBMISSION.md).
+The [code review](docs/CODE_REVIEW.md) and [Store readiness checklist](docs/STORE_SUBMISSION.md) record the completed checks and remaining release evidence.
 
 ## License
 
