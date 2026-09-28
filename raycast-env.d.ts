@@ -11,7 +11,9 @@ type ExtensionPreferences = {
   /** Platform Base URL - The HTTPS origin that serves /api/v1, without a trailing API path. */
   "baseUrl": string,
   /** API Key - A member API key created in Tinkerer Club Settings. It is sent in the x-api-key header. */
-  "authorizationValue": string
+  "authorizationValue"?: string,
+  /** Screenshot Demo Mode - Show fictional local data for Store screenshots. No requests or changes are sent to Tinkerer Club while enabled. */
+  "demoMode": boolean
 }
 
 /** Preferences accessible in all the extension's commands */
