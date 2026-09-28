@@ -27,8 +27,8 @@ Reviewed against the current Raycast preparation, publishing, extension-guidelin
 - [x] All metadata screenshots are 2000 x 1250 PNGs with a consistent background and pass `ray lint` metadata validation.
 - [x] Store screenshots use fictional names, handles, posts, and prompt content with generated demo avatars. No real member content or API keys are visible.
 - [ ] Replace `{PR_MERGE_DATE}` in `CHANGELOG.md` only if the Raycast publishing workflow does not fill it.
-- [ ] Run `npm ci && npm run check` from a clean checkout.
-- [ ] Submit with `npm run publish`; review the generated public PR before requesting Store review.
+- [x] Run `npm ci && npm run check` from an isolated PR-branch checkout (2026-09-28).
+- [x] The public Store submission is [PR #31009](https://github.com/raycast/extensions/pull/31009).
 
 ## Reviewer Notes
 
